@@ -17,19 +17,21 @@ Follow [@thefancyapps](//twitter.com/thefancyapps) for updates.
 
 <link  href="/path/to/jquery.fancybox.min.css" rel="stylesheet">
 <script src="/path/to/jquery.fancybox.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            $(".fancybox").fancybox();
+        });
+</script>
 ```
 
 
 2\.  Create links
 
 ```html
-<a data-fancybox="gallery" href="big_1.jpg">
+<a class="fancybox" href="big_1.jpg">
     <img src="small_1.jpg">
 </a>
 
-<a data-fancybox="gallery" href="big_2.jpg">
-    <img src="small_2.jpg">
-</a>
 ```
 
 
